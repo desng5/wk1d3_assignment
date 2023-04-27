@@ -1,0 +1,44 @@
+body{ 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: url(../images/stock_concert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+
+  header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #eed91e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+  }
+
+
+  nav ul {
+    font-size: 32px;
+    list-style: none;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #eed91e;
+    text-decoration: none;
+  }
+
+  h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top: 115px;
+  }
+

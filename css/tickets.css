@@ -1,0 +1,163 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-image: url(../images/stock_concert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #eed91e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 15px;
+  margin-left: 25px;
+}
+
+nav ul {
+  font-size: 32px;
+  list-style: none;
+  margin: 0;
+  margin-right: 20px;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #eed91e;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #eed91e
+}
+
+h3 {
+  margin-bottom: 20px;
+  color: #333
+}
+
+
+.gorge img {
+  width: 35%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/*location, date, time*/
+
+.event-details {
+  font-style: italic;
+  color: white
+}
+
+
+.australia img {
+  width: 25%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.event-details {
+  font-style: italic;
+}
+
+.tl img {
+  width: 20%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+
+}
+
+.container-fluid {
+  background-color: #393934;
+  opacity: .8;
+}
+
+.tickets {
+  background-color: gray;
+  text-align: center;
+  margin-right: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  color: #e4d8d8
+}
+
+.tickets ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tickets ul li {
+  margin-bottom: 10px;
+}
+
+.buy-ticket {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-ticket:hover {
+  background-color: #555;
+}
+
+footer div {
+  text-align: center;
+  color: white;
+  border: 0px;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin-top: 50px; */
+  /* height:10px; */
+  border: 0px;
+  box-shadow: inset 0 12px 12px -12px white;
+  text-align: center;
+  color: white;
+  border: 0px;
+}
+
+.container a:hover {
+  background-color: orangered;
+}
+
+#email {
+  padding: 20px;
+  color: white;
+}
+
+#phone {
+  padding: 20px;
+  color: white;
+}
+
+#location {
+  padding: 20px;
+  color: white;
+}
